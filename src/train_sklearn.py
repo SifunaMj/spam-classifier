@@ -95,6 +95,10 @@ if __name__ == "__main__":
 
     print("\n Models saved successfully")
 
+
+    joblib.dump(vectorizer, "models/tfidf_vectorizer.pkl")
+    print("✅ Vectorizer saved successfully")
+
     # =========================
     # 🔹 Evaluation
     # =========================
